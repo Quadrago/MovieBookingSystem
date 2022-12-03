@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
+
+<VBox alignment="CENTER" prefHeight="278.0" prefWidth="331.0" spacing="15.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.AdminController">
+   <children>
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Admin Privileges" />
+      <Button mnemonicParsing="false" text="Delete a Movie" />
+      <Button mnemonicParsing="false" onAction="#addMovie" text="Add a Movie" />
+      <TextField fx:id="inputMovie" maxWidth="-Infinity" />
+      <Button mnemonicParsing="false" text="Delete Movie Time" />
+      <Button mnemonicParsing="false" text="Add Movie Time" />
+   </children>
+</VBox>
